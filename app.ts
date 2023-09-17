@@ -1,6 +1,9 @@
 const person = {
   name: "Omar",
   age: 30,
+  hobbies: ["sports", "cooking"],
 };
 
-console.log(person.nickname);
+let favoriteActivities: string[];
+
+console.log(person.name);
